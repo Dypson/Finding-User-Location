@@ -13,6 +13,7 @@
 		6A6BB6B922E94B6F001C69CA /* Finding_User_Locations.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6A6BB6B722E94B6F001C69CA /* Finding_User_Locations.xcdatamodeld */; };
 		6A6BB6BB22E94B70001C69CA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BB6BA22E94B70001C69CA /* Assets.xcassets */; };
 		6A6BB6BE22E94B70001C69CA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6A6BB6BC22E94B70001C69CA /* LaunchScreen.storyboard */; };
+		6A6BB6C722E95282001C69CA /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6A6BB6C622E95282001C69CA /* CoreLocation.framework */; settings = {ATTRIBUTES = (Required, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		6A6BB6BA22E94B70001C69CA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6A6BB6BD22E94B70001C69CA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6A6BB6BF22E94B70001C69CA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A6BB6C622E95282001C69CA /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6A6BB6C722E95282001C69CA /* CoreLocation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +45,7 @@
 			children = (
 				6A6BB6AF22E94B6F001C69CA /* Finding User Locations */,
 				6A6BB6AE22E94B6F001C69CA /* Products */,
+				6A6BB6C522E95282001C69CA /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,6 +69,14 @@
 				6A6BB6B722E94B6F001C69CA /* Finding_User_Locations.xcdatamodeld */,
 			);
 			path = "Finding User Locations";
+			sourceTree = "<group>";
+		};
+		6A6BB6C522E95282001C69CA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6A6BB6C622E95282001C69CA /* CoreLocation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
